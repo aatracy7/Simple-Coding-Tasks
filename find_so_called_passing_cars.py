@@ -1,5 +1,5 @@
 def find_so_called_passing_cars(A):
-    #This finds the number of 1s that occur after a 0 in an array of 0 and 1s 
+    #This really finds the sum of the sum of 0s before each 1 in an array of 1s and 0s
     n = len(A)
     prefix_sums = [0] * (n + 1)
     east_cars = 0
